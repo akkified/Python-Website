@@ -1,5 +1,3 @@
-from pyweb import pydom
-
 def calc(num1,num2):
     operation = input("What operation do want to do? ")
     if operation == "Add":
