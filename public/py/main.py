@@ -1,4 +1,6 @@
-def calc(num1,num2):
+def calc():
+    num1 = float(input("What is your first number? "))
+    num2 = float(input("What is your second number? "))
     operation = input("What operation do want to do? ")
     if operation == "Add":
         return(num1 + num2)
@@ -11,4 +13,4 @@ def calc(num1,num2):
     else:
         print("You entered the wrong operation!")
 
-print(calc(float(input("What is your first number? ")),float(input("What is your second number? "))))
+print(calc())
